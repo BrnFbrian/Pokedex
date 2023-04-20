@@ -1,1 +1,1 @@
-# Pokedex da primeira á quinta geração, com os sprites animados
+# Pokedex da primeira  quinta geração, com os sprites animados
