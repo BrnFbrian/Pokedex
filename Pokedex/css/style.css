@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;500;600;700;800&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -27,10 +26,10 @@ main {
 
 .pokemon__image {
     position: absolute;
-    bottom: 53%;
+    bottom: 55%;
     left: 50%;
-    transform: translate(-63%, 20%);
-    height: 11.5%;
+    transform: translate(-59%, 20%);
+    height: 18%;
 }
 
 .pokemon__data {
@@ -71,4 +70,24 @@ main {
     bottom: 10%;
     left: 50%;
     width: 65%;
+    transform: translate(-56%, 0);
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    width: 50%;
+    padding: 4%;
+    border: 2px solid #000;
+    border-radius: 5px;
+    font-size: clamp(8px, 6vw, 1rem);
+    font-weight: 600;
+    color: white;
+    background-color: #444;
+    box-shadow: -2px 3px 0 #222, -4px 6px 0 #000;
+}
+
+.button:active {
+    box-shadow: inset -4px 4px 0 #222;
+    font-size: 0.9rem;
 }
